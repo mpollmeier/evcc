@@ -99,6 +99,7 @@ topic = "Tema"
 url = "URL"
 vehicleLimitSoc = "Automobilio limitas"
 yes = "taip"
+solarForecast = "Saulės prognozė"
 
 [config.deviceValueChargeStatus]
 A = "A (neprijungtas)"
@@ -243,6 +244,7 @@ title = "Konfigūracija"
 unconfigured = "nesukonfigūruota"
 vehicles = "Mano automobiliai"
 yaml = "Įtaisas iš evcc.yaml , čia konfigūruoti neina."
+addAdditional = "Pridėti papildomą skaitiklį"
 
 [config.messaging]
 description = "Gaukite pranešimus apie įkrovimo sesijas."
@@ -318,6 +320,7 @@ loadpoints = "Įkrovikliai"
 meter = "Saulės elektrinės ir kaupikliai"
 system = "Sistema"
 vehicles = "Automobiliai"
+additionalMeter = "Papildomi skaitikliai"
 
 [config.site]
 cancel = "Atšaukti"
@@ -586,6 +589,7 @@ cheapEnergyCharging = "Šildoma pigia energija: {price} (limitas {limit})"
 cleanEnergyCharging = "Šildoma švaria energija: {co2} (limitas {limit})"
 vehicleLimit = "Šildymo limitas"
 waitForVehicle = "Paruošta. Laukiame šildytuvo…"
+connected = "Budėjimo režimas."
 
 [main.loadpoint]
 avgPrice = "⌀ Kaina"
@@ -952,3 +956,20 @@ title = "Klaida startuojant"
 cancel = "Atšaukti"
 template = "Gamintojas"
 test = "Testuoti"
+
+
+[config.aux]
+titleEdit = "Redaguoti Savireguliuojantį vartotoją"
+titleAdd = "Pridėti Savireguliuojantį vartotoją"
+description = "Įrenginys, kuris koreguoja savo suvartojimą pagal esamą energijos perteklių (pvz., išmanieji vandens šildytuvai). evcc tikisi, kad šis įrenginys prireikus sumažins energijos suvartojimą."
+
+[config.ext]
+titleAdd = "Pridėti Išorinį skaitiklį"
+description = "Gali būti naudojamas apkrovos valdymo ar statistikos tikslais."
+titleEdit = "Redaguoti Išorinį skaitiklį"
+
+[config.meter.option]
+aux = "Pridėti savireguliuojantį vartotoją"
+ext = "Pridėti išorinį skaitiklį"
+pv = "Pridėti saulės elektrinės skaitiklį"
+battery = "Pridėti kaupiklio skaitiklį"
