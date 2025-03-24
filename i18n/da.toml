@@ -243,6 +243,7 @@ title = "Opsætning"
 unconfigured = "ikke konfigureret"
 vehicles = "Mine køretøjer"
 yaml = "Enheder fra evcc.yaml kan ikke ændres her"
+addAdditional = "Tilføj en ekstra måler"
 
 [config.messaging]
 description = "Modtag beskeder om dine opladningssessioner."
@@ -318,6 +319,7 @@ loadpoints = "Ladepunkter"
 meter = "Sol og batteri"
 system = "System"
 vehicles = "Køretøjer"
+additionalMeter = "Tilføj ekstra målere"
 
 [config.site]
 cancel = "Afbryd"
@@ -925,3 +927,20 @@ title = "Fejl ved opstart"
 cancel = "Afbryd"
 template = "Producent"
 test = "Test"
+
+
+[config.aux]
+description = "Enhed, der justerer sit forbrug baseret på tilgængeligt overskud (som smarte vandvarmere). evcc forventer, at denne enhed reducerer sit strømforbrug, hvis det er nødvendigt."
+titleAdd = "Tilføj selvregulerende forbrugsenhed"
+titleEdit = "Rediger selvregulerende forbrugsenhed"
+
+[config.ext]
+titleAdd = "Tilføj ekstern måler"
+titleEdit = "Rediger ekstern måler"
+description = "Kan bruges til belastningsstyring eller statistikformål."
+
+[config.meter.option]
+aux = "Tilføj selvregulerende forbrugsenhed"
+battery = "Tilføj batterimåler"
+ext = "Tilføj en ekstra måler"
+pv = "Tilføj en solenergimåler"
